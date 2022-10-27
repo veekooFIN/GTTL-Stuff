@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <gigatron/sys.h>
 #define TIMER 0
-#define MODE 4
+#define MODE 1975
 
 /** This is the genuine C program of the sieve benchmark.
     The only additions are the #include directives above

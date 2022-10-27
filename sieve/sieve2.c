@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define TIMER 0
-#define MODE 4
+#define MODE 1975
 
 /** This is a more substantial modification of the sieve program.
     Besides the sieve1 modifications, sieve2 uses memset to clear the flag array

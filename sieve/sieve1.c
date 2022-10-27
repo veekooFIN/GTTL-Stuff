@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <gigatron/sys.h>
 #define TIMER 0
-#define MODE 4
+#define MODE 1975
 
 /** This is a minor modification of the genuine C program of the sieve benchmark.
     Loop conditions and certain expressions have been made optimizer friendly. **/
