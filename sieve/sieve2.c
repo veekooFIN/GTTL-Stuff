@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define TIMER 0
-#define MODE 1975
+#define MODE 4
 
 /** This is a more substantial modification of the sieve program.
     Besides the sieve1 modifications, sieve2 uses memset to clear the flag array
@@ -35,7 +35,9 @@ int sieve() {
 
 int main() {
     int iter, count;
+    #if TIMER
     unsigned int ticks = 0;
+    #endif
     printf("10 iterations\n\n");
 #ifdef MODE
 # if MODE == 4
